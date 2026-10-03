@@ -53,7 +53,7 @@
 
             <!-- Centered Subject/Image Layer -->
             <div class="hero-image-wrapper">
-                <img src="images/girl-image.webp" alt="Revolutionary Chicken Founder" class="hero-subject-img" data-parallax-subject>
+                <img src="images/chicken-png.webp" alt="Revolutionary Chicken Founder" class="hero-subject-img" data-parallax-subject>
             </div>
 
             <!-- Subheading Box -->
@@ -86,16 +86,16 @@
         <!-- Floating Images Layer (True Parallax Drift) -->
         <div class="parallax-images-container">
             <div class="floating-img-box img-1" data-speed="0.25">
-                <img src="images/imgi_15_13.2.jpg" alt="Backyard Chicken Setup">
+                <img src="images/product-01.webp" alt="Backyard Chicken Setup">
             </div>
             <div class="floating-img-box img-2" data-speed="-0.2">
-                <img src="images/chicken-setup.webp" alt="Smart Coop Integration">
+                <img src="images/product-02.webp" alt="Smart Coop Integration">
             </div>
             <div class="floating-img-box img-3" data-speed="0.35">
-                <img src="images/happyflockimageorg.jfif" alt="Happy Flock">
+                <img src="images/product-03.webp" alt="Happy Flock">
             </div>
             <div class="floating-img-box img-4" data-speed="-0.3">
-                <img src="images/chickencareinovation.webp" alt="Chicken Care Innovations">
+                <img src="images/product-04.webp" alt="Chicken Care Innovations">
             </div>
         </div>
 
@@ -131,6 +131,16 @@
 
     </section>
 
+    <div class="collection-section">
+        <h2 class="section-title">Explore Our Farm Collections</h2>
+
+        <div class="marquee-container">
+            <div class="marquee-track" id="marqueeTrack">
+                <!-- Products will be dynamically populated via JavaScript to ensure smooth infinite loop -->
+            </div>
+        </div>
+    </div>
+
     <!-- NEWSLETTER / SUBSTACK STYLE SECTION -->
     <section class="newsletter-section">
         <div class="newsletter-container" data-parallax-content>
@@ -143,7 +153,7 @@
                 This is where I get things off my chest (maybe yours too), spill my unfiltered tea, and share the messiest moments of backyard coop leadership, and everything I'm not saying anywhere else (never, ever written by AI).
             </p>
 
-            <form class="newsletter-form" onsubmit="event.preventDefault();">
+            <form class="newsletter-form">
                 <input type="email" placeholder="Enter your email" required>
                 <button type="submit">Subscribe</button>
             </form>
@@ -153,8 +163,8 @@
         </div>
     </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-    <script src="script.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script defer src="script.js"></script>
 </body>
 </html>
